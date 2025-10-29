@@ -10,6 +10,8 @@ namespace Collobration_Git_Demo2
     {
         static void Main(string[] args)
         {
+            Dinesh dinesh = new Dinesh();
+            dinesh.PrintName();
 
             Product product = new Product();
             product.Pname();
