@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace Collobration_Git_Demo2
 {
-    internal class Program
+    internal class Collab_Demo
     {
-        static void Main(string[] args)
-        {
-
-            Product product = new Product();
-            product.Pname();
-        }
+        public  void Display() { Console.WriteLine("This class is from lokesh branch"); }
+      
     }
 }
