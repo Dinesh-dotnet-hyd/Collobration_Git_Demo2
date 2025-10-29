@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Collobration_Git_Demo2
 {
-    internal class Program
+    internal class Product
     {
-        static void Main(string[] args)
+        public void Pname()
         {
-
-            Product product = new Product();
-            product.Pname();
+            Console.WriteLine("Pencil");
         }
     }
 }
