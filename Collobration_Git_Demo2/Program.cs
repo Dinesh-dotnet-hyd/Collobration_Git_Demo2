@@ -12,6 +12,9 @@ namespace Collobration_Git_Demo2
         {
             Dinesh dinesh = new Dinesh();
             dinesh.PrintName();
+
+            Product product = new Product();
+            product.Pname();
         }
     }
 }
