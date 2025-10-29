@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Collobration_Git_Demo2
 {
-    internal class Program
+    internal class Dinesh
     {
-        static void Main(string[] args)
+        public void PrintName()
         {
-            Dinesh dinesh = new Dinesh();
-            dinesh.PrintName();
+            Console.WriteLine("Dinesh");
         }
     }
 }
